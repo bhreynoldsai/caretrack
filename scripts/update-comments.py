@@ -33,7 +33,7 @@ def fetch_json(url: str, key: str, attempts: int = 4):
             time.sleep(min(delay + attempt * 3, 45))
 
 def validate(data):
-    required = {"docket", "updatedAt", "lastModifiedAt", "comments", "themes", "topSubmitters", "sample"}
+    required = {"docket", "updatedAt", "lastModifiedAt", "comments", "themes", "topSubmitters", "analysis"}
     missing = required - set(data)
     if missing:
         raise ValueError(f"Missing keys: {sorted(missing)}")

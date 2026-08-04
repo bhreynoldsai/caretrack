@@ -16,7 +16,7 @@ export default function Home() {
         <div className="eyebrow"><span className="live-dot"/> Three-hour public record monitor</div>
         <h1>The comment record,<br/><span>made legible.</span></h1>
         <p>Track submission velocity and the policy themes shaping CMS’s proposed CY 2027 Physician Fee Schedule.</p>
-        <div className="hero-actions"><a className="button primary" href="#activity">Explore activity</a><a className="button secondary" href="/cms-2026-2377-comments-report.pdf">Download analysis</a></div>
+        <div className="hero-actions"><a className="button primary" href="#activity">Explore activity</a><a className="button secondary" href="/cms-2026-2377-comprehensive-report.pdf">Download report</a><a className="button secondary" href="/cms-2026-2377-evidence-package.zip">Evidence package</a></div>
       </div>
       <aside className="freshness-card"><div><span className="live-dot"/><b>Data current</b></div><strong>{formatDate(data.updatedAt, true)}</strong><p>Next automated check within three hours.</p><div className="freshness-meter"><span/></div><small>Official Regulations.gov API</small></aside>
     </section>
@@ -35,9 +35,9 @@ export default function Home() {
 
     <div className="two-column">
       <section className="panel themes-panel">
-        <SectionHeading eyebrow="Sampled analysis" title="Themes in the record" detail={`Multi-label coding of ${formatNumber(data.sample.detailRecords)} detailed comments (${data.sample.coveragePercent.toFixed(1)}% of the ${formatNumber(data.sample.censusAtAnalysis)}-record analysis census).`} />
+        <SectionHeading eyebrow="Complete census analysis" title="Themes in the record" detail={`Multi-label coding of all ${formatNumber(data.analysis.detailRecords)} detailed comments and ${formatNumber(data.analysis.attachmentsAnalyzed)} attachments reachable at the analysis snapshot.`} />
         <ThemeBars themes={data.themes} />
-        <div className="note"><b>Why sampled?</b><p>Regulations.gov exposes text and identity only through rate-limited detail calls. Live totals are exact; theme counts are directional estimates from the dated analysis sample.</p></div>
+        <div className="note"><b>Snapshot versus live record</b><p>Theme and identity analysis covers 100% of the 1,595-record August 3 census. Live totals continue updating every three hours and may later exceed the analyzed snapshot.</p></div>
       </section>
       <section className="panel latest-panel">
         <SectionHeading eyebrow="Recently changed" title="Latest public records" detail="Newest records by last-modified timestamp." />

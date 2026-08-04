@@ -26,11 +26,11 @@ export function VelocityChart({ values }: { values: { date: string; count: numbe
 }
 
 export function ThemeBars({ themes }: { themes: Theme[] }) {
-  const max = Math.max(...themes.map(t => t.samplePercent));
+  const max = Math.max(...themes.map(t => t.percent));
   return <div className="theme-list">{themes.slice(0, 9).map((theme, index) => <div className="theme-row" key={theme.name}>
-    <div className="theme-label"><span>{String(index+1).padStart(2,"0")}</span><b>{theme.name}</b><em>{theme.samplePercent.toFixed(1)}%</em></div>
-    <div className="bar-track"><span style={{ width: `${(theme.samplePercent/max)*100}%` }} /></div>
-    <small>Estimated {formatNumber(theme.estimatedCount)} records · 95% range {formatNumber(theme.low)}–{formatNumber(theme.high)}</small>
+    <div className="theme-label"><span>{String(index+1).padStart(2,"0")}</span><b>{theme.name}</b><em>{theme.percent.toFixed(1)}%</em></div>
+    <div className="bar-track"><span style={{ width: `${(theme.percent/max)*100}%` }} /></div>
+    <small>{formatNumber(theme.count)} comments in the complete analysis census</small>
   </div>)}</div>;
 }
 
