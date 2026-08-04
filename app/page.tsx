@@ -1,5 +1,6 @@
 import { LatestComments, SectionHeading, StatCard, ThemeBars, VelocityChart } from "./components";
 import { data, easternDayKey, formatDate, formatNumber, getDailyCounts } from "./lib";
+import rpmData from "@/data/rpm-comments.json";
 
 export default function Home() {
   const daily = getDailyCounts();
@@ -25,7 +26,12 @@ export default function Home() {
       <StatCard label="Posted comments" value={formatNumber(data.comments.length)} detail={`Live census · ${today} posted today`} />
       <StatCard label="Last seven days" value={formatNumber(last7)} detail="Comments posted in rolling window" tone="mint" />
       <StatCard label="Peak posting day" value={formatNumber(peak.count)} detail={formatDate(`${peak.date}T12:00:00Z`)} tone="violet" />
-      <StatCard label="Comment window" value={`${deadlineDays} days`} detail={`Closes ${formatDate(data.docket.commentDeadline)}`} tone="amber" />
+      <StatCard label="RPM / RTM submissions" value={formatNumber(rpmData.comments.length)} detail={`${formatNumber(rpmData.comments.filter(comment => comment.policySpecific).length)} directly address RPM/RTM policy`} tone="amber" />
+    </section>
+
+    <section className="rpm-callout" aria-labelledby="rpm-callout-title">
+      <div><p>Remote monitoring record</p><h2 id="rpm-callout-title">Every RPM-related submission, linked to its source.</h2><span>The audited census identifies {formatNumber(rpmData.comments.length)} RPM/RTM-related records. Review the complete list, filter direct policy comments, and open each filing on Regulations.gov.</span></div>
+      <a className="button primary" href="/rpm-submissions">Explore all {formatNumber(rpmData.comments.length)}</a>
     </section>
 
     <section className="panel" id="activity">
@@ -49,5 +55,6 @@ export default function Home() {
       <div><p>Method & provenance</p><h2>Built for an auditable public record.</h2></div>
       <div className="method-grid"><article><span>01</span><b>Official source</b><p>Record IDs and dates come directly from the Regulations.gov v4 API.</p></article><article><span>02</span><b>Incremental refresh</b><p>GitHub Actions merges records modified since the last run every three hours.</p></article><article><span>03</span><b>Versioned history</b><p>Every data change is committed, preserving an inspectable update trail.</p></article></div>
     </section>
+    <p className="deadline-note">The public comment window closes {formatDate(data.docket.commentDeadline)} ({deadlineDays} days from the latest dashboard refresh).</p>
   </main>;
 }
