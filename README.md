@@ -2,6 +2,8 @@
 
 A public dashboard for comments submitted to **CMS-2026-2377-0002**, the CY 2027 Medicare Physician Fee Schedule proposed rule.
 
+**Live dashboard:** [cms-comments-dashboard.vercel.app](https://cms-comments-dashboard.vercel.app)
+
 ## What updates automatically
 
 GitHub Actions polls the official Regulations.gov v4 API every three hours. The updater requests only records modified since the prior snapshot, merges by comment ID, and commits `data/dashboard.json` only when something changes. A connected Vercel project then rebuilds from `main`.
