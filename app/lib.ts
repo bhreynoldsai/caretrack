@@ -22,6 +22,22 @@ export type Submitter = {
   commentIds: string[];
 };
 
+export type RpmComment = {
+  id: string;
+  postedDate: string;
+  submitter: string;
+  submitterType: string;
+  organization: string;
+  category: string;
+  state: string;
+  wordCount: number;
+  policySpecific: boolean;
+  stance: string;
+  subthemes: string[];
+  excerpt: string;
+  sourceUrl: string;
+};
+
 export const data = dashboardData as {
   docket: {
     id: string;

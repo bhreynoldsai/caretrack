@@ -18,6 +18,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
           </Link>
           <nav aria-label="Primary navigation">
             <Link href="/">Overview</Link>
+            <Link href="/rpm-submissions">RPM submissions</Link>
             <Link href="/submitters">Submitters</Link>
             <a href="https://www.regulations.gov/document/CMS-2026-2377-0002/comment" target="_blank" rel="noreferrer">Live docket ↗</a>
           </nav>
