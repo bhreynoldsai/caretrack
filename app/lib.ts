@@ -10,11 +10,8 @@ export type CommentRecord = {
 
 export type Theme = {
   name: string;
-  sampleCount: number;
-  samplePercent: number;
-  estimatedCount: number;
-  low: number;
-  high: number;
+  count: number;
+  percent: number;
 };
 
 export type Submitter = {
@@ -38,11 +35,17 @@ export const data = dashboardData as {
   comments: CommentRecord[];
   themes: Theme[];
   topSubmitters: Submitter[];
-  sample: {
+  analysis: {
     detailRecords: number;
     censusAtAnalysis: number;
     coveragePercent: number;
     analyzedAt: string;
+    attachmentsAnalyzed: number;
+    totalWords: number;
+    duplicateClusters: number;
+    rpmComments: number;
+    rpmPolicySpecific: number;
+    rpmOpposeOrNarrow: number;
     attachmentNote: string;
   };
 };

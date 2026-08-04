@@ -11178,105 +11178,276 @@
   ],
   "themes": [
     {
-      "name": "Payment adequacy, conversion factors & practice expense",
-      "sampleCount": 261,
-      "samplePercent": 57.2,
-      "estimatedCount": 913,
-      "low": 840,
-      "high": 984
+      "name": "Payment adequacy, conversion factor & practice expense",
+      "count": 981,
+      "percent": 61.5
     },
     {
       "name": "Access, rural burden & consolidation",
-      "sampleCount": 217,
-      "samplePercent": 47.6,
-      "estimatedCount": 759,
-      "low": 687,
-      "high": 832
+      "count": 750,
+      "percent": 47.0
     },
     {
       "name": "Same-day E/M, modifier 25 & global procedures",
-      "sampleCount": 179,
-      "samplePercent": 39.3,
-      "estimatedCount": 626,
-      "low": 556,
-      "high": 699
+      "count": 575,
+      "percent": 36.1
     },
     {
-      "name": "Specialty/service valuation disputes",
-      "sampleCount": 51,
-      "samplePercent": 11.2,
-      "estimatedCount": 178,
-      "low": 137,
-      "high": 230
+      "name": "Specialty and service valuation",
+      "count": 529,
+      "percent": 33.2
     },
     {
-      "name": "Chronic disease, health coaching & navigation",
-      "sampleCount": 34,
-      "samplePercent": 7.5,
-      "estimatedCount": 119,
-      "low": 86,
-      "high": 163
+      "name": "Chronic care, coaching & navigation",
+      "count": 154,
+      "percent": 9.7
     },
     {
-      "name": "Remote monitoring staffing, initiation & coding",
-      "sampleCount": 27,
-      "samplePercent": 5.9,
-      "estimatedCount": 94,
-      "low": 65,
-      "high": 135
+      "name": "Value-based care, ACOs & MSSP",
+      "count": 127,
+      "percent": 8.0
+    },
+    {
+      "name": "Remote physiologic/therapeutic monitoring",
+      "count": 99,
+      "percent": 6.2
     },
     {
       "name": "Laboratory, diagnostics & interoperability",
-      "sampleCount": 25,
-      "samplePercent": 5.5,
-      "estimatedCount": 87,
-      "low": 60,
-      "high": 127
+      "count": 89,
+      "percent": 5.6
     },
     {
-      "name": "Drug payment, pharmacies & 340B",
-      "sampleCount": 8,
-      "samplePercent": 1.8,
-      "estimatedCount": 28,
-      "low": 14,
-      "high": 55
+      "name": "Prevention, vaccines & screening",
+      "count": 79,
+      "percent": 5.0
     },
     {
-      "name": "AI/CMAA payment and human oversight",
-      "sampleCount": 7,
-      "samplePercent": 1.5,
-      "estimatedCount": 24,
-      "low": 12,
-      "high": 50
+      "name": "Behavioral health and substance use",
+      "count": 64,
+      "percent": 4.0
     },
     {
-      "name": "Telehealth, RHCs & FQHCs",
-      "sampleCount": 5,
-      "samplePercent": 1.1,
-      "estimatedCount": 17,
-      "low": 7,
-      "high": 41
+      "name": "AI, software and human oversight",
+      "count": 44,
+      "percent": 2.8
+    },
+    {
+      "name": "Telehealth and virtual access",
+      "count": 29,
+      "percent": 1.8
+    },
+    {
+      "name": "Drug payment, pharmacy & 340B",
+      "count": 25,
+      "percent": 1.6
     },
     {
       "name": "Wound care & skin substitutes",
-      "sampleCount": 5,
-      "samplePercent": 1.1,
-      "estimatedCount": 17,
-      "low": 7,
-      "high": 41
+      "count": 11,
+      "percent": 0.7
     },
     {
-      "name": "Medicare eligibility/immigration",
-      "sampleCount": 1,
-      "samplePercent": 0.2,
-      "estimatedCount": 3,
-      "low": 1,
-      "high": 20
+      "name": "Medicare eligibility & immigration",
+      "count": 1,
+      "percent": 0.1
     }
   ],
   "topSubmitters": [
     {
       "rank": 1,
+      "name": "Amy Holton",
+      "type": "Individual",
+      "observedCount": 5,
+      "commentIds": [
+        "CMS-2026-2377-0468",
+        "CMS-2026-2377-0479",
+        "CMS-2026-2377-0481",
+        "CMS-2026-2377-0482",
+        "CMS-2026-2377-1184"
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "David Rocha",
+      "type": "Individual",
+      "observedCount": 4,
+      "commentIds": [
+        "CMS-2026-2377-0106",
+        "CMS-2026-2377-0110",
+        "CMS-2026-2377-0111",
+        "CMS-2026-2377-0127"
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "Richard Hope",
+      "type": "Individual",
+      "observedCount": 4,
+      "commentIds": [
+        "CMS-2026-2377-0494",
+        "CMS-2026-2377-0495",
+        "CMS-2026-2377-0496",
+        "CMS-2026-2377-0497"
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "Scott Goldberg",
+      "type": "Individual",
+      "observedCount": 4,
+      "commentIds": [
+        "CMS-2026-2377-1178",
+        "CMS-2026-2377-1179",
+        "CMS-2026-2377-1187",
+        "CMS-2026-2377-1188"
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "Ada West Dermatology",
+      "type": "Organization",
+      "observedCount": 3,
+      "commentIds": [
+        "CMS-2026-2377-1326",
+        "CMS-2026-2377-1329",
+        "CMS-2026-2377-1636"
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "Elnara Muradova",
+      "type": "Individual",
+      "observedCount": 3,
+      "commentIds": [
+        "CMS-2026-2377-0840",
+        "CMS-2026-2377-0841",
+        "CMS-2026-2377-0842"
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "Stewart Bernard",
+      "type": "Individual",
+      "observedCount": 3,
+      "commentIds": [
+        "CMS-2026-2377-0083",
+        "CMS-2026-2377-0084",
+        "CMS-2026-2377-0085"
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "ABC Coding Solutions, Inc.",
+      "type": "Organization",
+      "observedCount": 2,
+      "commentIds": [
+        "CMS-2026-2377-1610",
+        "CMS-2026-2377-1611"
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "Amar Patel",
+      "type": "Individual",
+      "observedCount": 2,
+      "commentIds": [
+        "CMS-2026-2377-0810",
+        "CMS-2026-2377-0811"
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "Amy Schulz",
+      "type": "Individual",
+      "observedCount": 2,
+      "commentIds": [
+        "CMS-2026-2377-0130",
+        "CMS-2026-2377-0134"
+      ]
+    },
+    {
+      "rank": 11,
+      "name": "Angela Ellerman",
+      "type": "Individual",
+      "observedCount": 2,
+      "commentIds": [
+        "CMS-2026-2377-0155",
+        "CMS-2026-2377-0156"
+      ]
+    },
+    {
+      "rank": 12,
+      "name": "Billy Rutter",
+      "type": "Individual",
+      "observedCount": 2,
+      "commentIds": [
+        "CMS-2026-2377-1138",
+        "CMS-2026-2377-1139"
+      ]
+    },
+    {
+      "rank": 13,
+      "name": "Blue Valley Dermatology",
+      "type": "Organization",
+      "observedCount": 2,
+      "commentIds": [
+        "CMS-2026-2377-0098",
+        "CMS-2026-2377-0099"
+      ]
+    },
+    {
+      "rank": 14,
+      "name": "Bonnie Pewterbaugh",
+      "type": "Individual",
+      "observedCount": 2,
+      "commentIds": [
+        "CMS-2026-2377-0749",
+        "CMS-2026-2377-0750"
+      ]
+    },
+    {
+      "rank": 15,
+      "name": "Cathy Gilges",
+      "type": "Individual",
+      "observedCount": 2,
+      "commentIds": [
+        "CMS-2026-2377-0725",
+        "CMS-2026-2377-0726"
+      ]
+    },
+    {
+      "rank": 16,
+      "name": "Charles Phipps",
+      "type": "Individual",
+      "observedCount": 2,
+      "commentIds": [
+        "CMS-2026-2377-0821",
+        "CMS-2026-2377-0822"
+      ]
+    },
+    {
+      "rank": 17,
+      "name": "Chelsea Duggan",
+      "type": "Individual",
+      "observedCount": 2,
+      "commentIds": [
+        "CMS-2026-2377-1155",
+        "CMS-2026-2377-1156"
+      ]
+    },
+    {
+      "rank": 18,
+      "name": "Cindy Wassef",
+      "type": "Individual",
+      "observedCount": 2,
+      "commentIds": [
+        "CMS-2026-2377-0266",
+        "CMS-2026-2377-0267"
+      ]
+    },
+    {
+      "rank": 19,
       "name": "David Doud",
       "type": "Individual",
       "observedCount": 2,
@@ -11286,7 +11457,107 @@
       ]
     },
     {
-      "rank": 2,
+      "rank": 20,
+      "name": "Ismar Dizdarevic",
+      "type": "Individual",
+      "observedCount": 2,
+      "commentIds": [
+        "CMS-2026-2377-0980",
+        "CMS-2026-2377-0982"
+      ]
+    },
+    {
+      "rank": 21,
+      "name": "Jennifer Haase",
+      "type": "Individual",
+      "observedCount": 2,
+      "commentIds": [
+        "CMS-2026-2377-0942",
+        "CMS-2026-2377-0945"
+      ]
+    },
+    {
+      "rank": 22,
+      "name": "Kevin VIEL",
+      "type": "Individual",
+      "observedCount": 2,
+      "commentIds": [
+        "CMS-2026-2377-1283",
+        "CMS-2026-2377-1284"
+      ]
+    },
+    {
+      "rank": 23,
+      "name": "Kim Dakin",
+      "type": "Individual",
+      "observedCount": 2,
+      "commentIds": [
+        "CMS-2026-2377-1152",
+        "CMS-2026-2377-1153"
+      ]
+    },
+    {
+      "rank": 24,
+      "name": "Kristin Fields",
+      "type": "Individual",
+      "observedCount": 2,
+      "commentIds": [
+        "CMS-2026-2377-1657",
+        "CMS-2026-2377-1658"
+      ]
+    },
+    {
+      "rank": 25,
+      "name": "Laleh Bedocs",
+      "type": "Individual",
+      "observedCount": 2,
+      "commentIds": [
+        "CMS-2026-2377-1217",
+        "CMS-2026-2377-1218"
+      ]
+    },
+    {
+      "rank": 26,
+      "name": "Laura Alessio",
+      "type": "Individual",
+      "observedCount": 2,
+      "commentIds": [
+        "CMS-2026-2377-1461",
+        "CMS-2026-2377-1644"
+      ]
+    },
+    {
+      "rank": 27,
+      "name": "Luke Fraundorf",
+      "type": "Individual",
+      "observedCount": 2,
+      "commentIds": [
+        "CMS-2026-2377-0293",
+        "CMS-2026-2377-0294"
+      ]
+    },
+    {
+      "rank": 28,
+      "name": "Madison Hill",
+      "type": "Individual",
+      "observedCount": 2,
+      "commentIds": [
+        "CMS-2026-2377-0549",
+        "CMS-2026-2377-0550"
+      ]
+    },
+    {
+      "rank": 29,
+      "name": "Martha Brown",
+      "type": "Individual",
+      "observedCount": 2,
+      "commentIds": [
+        "CMS-2026-2377-1441",
+        "CMS-2026-2377-1442"
+      ]
+    },
+    {
+      "rank": 30,
       "name": "natwarlal ramani",
       "type": "Individual",
       "observedCount": 2,
@@ -11296,7 +11567,139 @@
       ]
     },
     {
-      "rank": 3,
+      "rank": 31,
+      "name": "Sandi Eivins",
+      "type": "Individual",
+      "observedCount": 2,
+      "commentIds": [
+        "CMS-2026-2377-0132",
+        "CMS-2026-2377-0673"
+      ]
+    },
+    {
+      "rank": 32,
+      "name": "Sandra Verma",
+      "type": "Individual",
+      "observedCount": 2,
+      "commentIds": [
+        "CMS-2026-2377-0684",
+        "CMS-2026-2377-0685"
+      ]
+    },
+    {
+      "rank": 33,
+      "name": "Sreenivasu Odugu",
+      "type": "Individual",
+      "observedCount": 2,
+      "commentIds": [
+        "CMS-2026-2377-0103",
+        "CMS-2026-2377-0104"
+      ]
+    },
+    {
+      "rank": 34,
+      "name": "St. Luke's Health System",
+      "type": "Organization",
+      "observedCount": 2,
+      "commentIds": [
+        "CMS-2026-2377-0201",
+        "CMS-2026-2377-1016"
+      ]
+    },
+    {
+      "rank": 35,
+      "name": "Stephanie Savage",
+      "type": "Individual",
+      "observedCount": 2,
+      "commentIds": [
+        "CMS-2026-2377-0598",
+        "CMS-2026-2377-0599"
+      ]
+    },
+    {
+      "rank": 36,
+      "name": "Veronica Alvarez-Galiana",
+      "type": "Individual",
+      "observedCount": 2,
+      "commentIds": [
+        "CMS-2026-2377-0818",
+        "CMS-2026-2377-0819"
+      ]
+    },
+    {
+      "rank": 37,
+      "name": "143 Speech Therapy",
+      "type": "Organization",
+      "observedCount": 1,
+      "commentIds": [
+        "CMS-2026-2377-0182"
+      ]
+    },
+    {
+      "rank": 38,
+      "name": "Aanand Geria",
+      "type": "Individual",
+      "observedCount": 1,
+      "commentIds": [
+        "CMS-2026-2377-0880"
+      ]
+    },
+    {
+      "rank": 39,
+      "name": "Aaron Burch",
+      "type": "Individual",
+      "observedCount": 1,
+      "commentIds": [
+        "CMS-2026-2377-1383"
+      ]
+    },
+    {
+      "rank": 40,
+      "name": "Aaron Pace",
+      "type": "Individual",
+      "observedCount": 1,
+      "commentIds": [
+        "CMS-2026-2377-1072"
+      ]
+    },
+    {
+      "rank": 41,
+      "name": "Abby Sipe",
+      "type": "Individual",
+      "observedCount": 1,
+      "commentIds": [
+        "CMS-2026-2377-1007"
+      ]
+    },
+    {
+      "rank": 42,
+      "name": "ABC Coding Solutions",
+      "type": "Organization",
+      "observedCount": 1,
+      "commentIds": [
+        "CMS-2026-2377-1311"
+      ]
+    },
+    {
+      "rank": 43,
+      "name": "Abhyudaya Joshi",
+      "type": "Individual",
+      "observedCount": 1,
+      "commentIds": [
+        "CMS-2026-2377-0561"
+      ]
+    },
+    {
+      "rank": 44,
+      "name": "Abigail Donnelly",
+      "type": "Individual",
+      "observedCount": 1,
+      "commentIds": [
+        "CMS-2026-2377-0882"
+      ]
+    },
+    {
+      "rank": 45,
       "name": "About Women Ob/Gyn",
       "type": "Organization",
       "observedCount": 1,
@@ -11305,16 +11708,106 @@
       ]
     },
     {
-      "rank": 4,
-      "name": "Ada West Dermatology",
+      "rank": 46,
+      "name": "Ada west dermatology",
       "type": "Organization",
       "observedCount": 1,
       "commentIds": [
-        "CMS-2026-2377-1326"
+        "CMS-2026-2377-1403"
       ]
     },
     {
-      "rank": 5,
+      "rank": 47,
+      "name": "Adam Brys",
+      "type": "Individual",
+      "observedCount": 1,
+      "commentIds": [
+        "CMS-2026-2377-1031"
+      ]
+    },
+    {
+      "rank": 48,
+      "name": "Adam Cien",
+      "type": "Individual",
+      "observedCount": 1,
+      "commentIds": [
+        "CMS-2026-2377-0669"
+      ]
+    },
+    {
+      "rank": 49,
+      "name": "Adam Daily",
+      "type": "Individual",
+      "observedCount": 1,
+      "commentIds": [
+        "CMS-2026-2377-0268"
+      ]
+    },
+    {
+      "rank": 50,
+      "name": "Adam Delora",
+      "type": "Individual",
+      "observedCount": 1,
+      "commentIds": [
+        "CMS-2026-2377-0315"
+      ]
+    },
+    {
+      "rank": 51,
+      "name": "Adam Ingraffea",
+      "type": "Individual",
+      "observedCount": 1,
+      "commentIds": [
+        "CMS-2026-2377-0663"
+      ]
+    },
+    {
+      "rank": 52,
+      "name": "Adam Kimple",
+      "type": "Individual",
+      "observedCount": 1,
+      "commentIds": [
+        "CMS-2026-2377-1131"
+      ]
+    },
+    {
+      "rank": 53,
+      "name": "Adam Mariotti",
+      "type": "Individual",
+      "observedCount": 1,
+      "commentIds": [
+        "CMS-2026-2377-0442"
+      ]
+    },
+    {
+      "rank": 54,
+      "name": "Adam McCall",
+      "type": "Individual",
+      "observedCount": 1,
+      "commentIds": [
+        "CMS-2026-2377-0264"
+      ]
+    },
+    {
+      "rank": 55,
+      "name": "Adam Siegel",
+      "type": "Individual",
+      "observedCount": 1,
+      "commentIds": [
+        "CMS-2026-2377-0237"
+      ]
+    },
+    {
+      "rank": 56,
+      "name": "Adam Swigost",
+      "type": "Individual",
+      "observedCount": 1,
+      "commentIds": [
+        "CMS-2026-2377-0608"
+      ]
+    },
+    {
+      "rank": 57,
       "name": "Adam Wright MD",
       "type": "Individual",
       "observedCount": 1,
@@ -11323,7 +11816,7 @@
       ]
     },
     {
-      "rank": 6,
+      "rank": 58,
       "name": "Addie Taylor",
       "type": "Individual",
       "observedCount": 1,
@@ -11332,7 +11825,25 @@
       ]
     },
     {
-      "rank": 7,
+      "rank": 59,
+      "name": "Adriane Owen",
+      "type": "Individual",
+      "observedCount": 1,
+      "commentIds": [
+        "CMS-2026-2377-0331"
+      ]
+    },
+    {
+      "rank": 60,
+      "name": "Adrienne Edgren",
+      "type": "Individual",
+      "observedCount": 1,
+      "commentIds": [
+        "CMS-2026-2377-0709"
+      ]
+    },
+    {
+      "rank": 61,
       "name": "Adrienne Jordan",
       "type": "Individual",
       "observedCount": 1,
@@ -11341,7 +11852,34 @@
       ]
     },
     {
-      "rank": 8,
+      "rank": 62,
+      "name": "Ahmed Hawash",
+      "type": "Individual",
+      "observedCount": 1,
+      "commentIds": [
+        "CMS-2026-2377-0542"
+      ]
+    },
+    {
+      "rank": 63,
+      "name": "Ajith Nair",
+      "type": "Individual",
+      "observedCount": 1,
+      "commentIds": [
+        "CMS-2026-2377-0285"
+      ]
+    },
+    {
+      "rank": 64,
+      "name": "Akron Dermatology, Inc.",
+      "type": "Organization",
+      "observedCount": 1,
+      "commentIds": [
+        "CMS-2026-2377-0888"
+      ]
+    },
+    {
+      "rank": 65,
       "name": "Alaa Kassir",
       "type": "Individual",
       "observedCount": 1,
@@ -11350,7 +11888,43 @@
       ]
     },
     {
-      "rank": 9,
+      "rank": 66,
+      "name": "Alan Alan",
+      "type": "Individual",
+      "observedCount": 1,
+      "commentIds": [
+        "CMS-2026-2377-1032"
+      ]
+    },
+    {
+      "rank": 67,
+      "name": "Alex Chavez",
+      "type": "Individual",
+      "observedCount": 1,
+      "commentIds": [
+        "CMS-2026-2377-1069"
+      ]
+    },
+    {
+      "rank": 68,
+      "name": "Alexander Marzuka, MD, FAAD",
+      "type": "Individual",
+      "observedCount": 1,
+      "commentIds": [
+        "CMS-2026-2377-0906"
+      ]
+    },
+    {
+      "rank": 69,
+      "name": "Alexandra Fry",
+      "type": "Individual",
+      "observedCount": 1,
+      "commentIds": [
+        "CMS-2026-2377-1354"
+      ]
+    },
+    {
+      "rank": 70,
       "name": "Alexi Johnson",
       "type": "Individual",
       "observedCount": 1,
@@ -11359,7 +11933,70 @@
       ]
     },
     {
-      "rank": 10,
+      "rank": 71,
+      "name": "Alfred Fleming",
+      "type": "Individual",
+      "observedCount": 1,
+      "commentIds": [
+        "CMS-2026-2377-1561"
+      ]
+    },
+    {
+      "rank": 72,
+      "name": "Ali Carine",
+      "type": "Individual",
+      "observedCount": 1,
+      "commentIds": [
+        "CMS-2026-2377-0395"
+      ]
+    },
+    {
+      "rank": 73,
+      "name": "Ali Mohammed",
+      "type": "Individual",
+      "observedCount": 1,
+      "commentIds": [
+        "CMS-2026-2377-0419"
+      ]
+    },
+    {
+      "rank": 74,
+      "name": "Alicia Bernard",
+      "type": "Individual",
+      "observedCount": 1,
+      "commentIds": [
+        "CMS-2026-2377-1165"
+      ]
+    },
+    {
+      "rank": 75,
+      "name": "Alicia Graziano",
+      "type": "Individual",
+      "observedCount": 1,
+      "commentIds": [
+        "CMS-2026-2377-1370"
+      ]
+    },
+    {
+      "rank": 76,
+      "name": "Alicia Spence",
+      "type": "Individual",
+      "observedCount": 1,
+      "commentIds": [
+        "CMS-2026-2377-1414"
+      ]
+    },
+    {
+      "rank": 77,
+      "name": "Alina Thompson",
+      "type": "Individual",
+      "observedCount": 1,
+      "commentIds": [
+        "CMS-2026-2377-0756"
+      ]
+    },
+    {
+      "rank": 78,
       "name": "Alison Auster",
       "type": "Individual",
       "observedCount": 1,
@@ -11368,7 +12005,7 @@
       ]
     },
     {
-      "rank": 11,
+      "rank": 79,
       "name": "Alison Black",
       "type": "Individual",
       "observedCount": 1,
@@ -11377,7 +12014,34 @@
       ]
     },
     {
-      "rank": 12,
+      "rank": 80,
+      "name": "Alison Hanna",
+      "type": "Individual",
+      "observedCount": 1,
+      "commentIds": [
+        "CMS-2026-2377-0967"
+      ]
+    },
+    {
+      "rank": 81,
+      "name": "Alissa Erogbogbo",
+      "type": "Individual",
+      "observedCount": 1,
+      "commentIds": [
+        "CMS-2026-2377-0935"
+      ]
+    },
+    {
+      "rank": 82,
+      "name": "Aliza Mamber",
+      "type": "Individual",
+      "observedCount": 1,
+      "commentIds": [
+        "CMS-2026-2377-0851"
+      ]
+    },
+    {
+      "rank": 83,
       "name": "Allie Nitsch",
       "type": "Individual",
       "observedCount": 1,
@@ -11386,7 +12050,7 @@
       ]
     },
     {
-      "rank": 13,
+      "rank": 84,
       "name": "Allie Pardue",
       "type": "Individual",
       "observedCount": 1,
@@ -11395,7 +12059,34 @@
       ]
     },
     {
-      "rank": 14,
+      "rank": 85,
+      "name": "Allison Arthur",
+      "type": "Individual",
+      "observedCount": 1,
+      "commentIds": [
+        "CMS-2026-2377-0671"
+      ]
+    },
+    {
+      "rank": 86,
+      "name": "Allon Friedman, MD",
+      "type": "Individual",
+      "observedCount": 1,
+      "commentIds": [
+        "CMS-2026-2377-0400"
+      ]
+    },
+    {
+      "rank": 87,
+      "name": "Alpen Patel",
+      "type": "Individual",
+      "observedCount": 1,
+      "commentIds": [
+        "CMS-2026-2377-0737"
+      ]
+    },
+    {
+      "rank": 88,
       "name": "Alyse Worley",
       "type": "Individual",
       "observedCount": 1,
@@ -11404,7 +12095,25 @@
       ]
     },
     {
-      "rank": 15,
+      "rank": 89,
+      "name": "Alyssa Gunther",
+      "type": "Individual",
+      "observedCount": 1,
+      "commentIds": [
+        "CMS-2026-2377-0860"
+      ]
+    },
+    {
+      "rank": 90,
+      "name": "Alyssa Tozzi",
+      "type": "Individual",
+      "observedCount": 1,
+      "commentIds": [
+        "CMS-2026-2377-1260"
+      ]
+    },
+    {
+      "rank": 91,
       "name": "Amanda Bailey",
       "type": "Individual",
       "observedCount": 1,
@@ -11413,776 +12122,98 @@
       ]
     },
     {
-      "rank": 16,
-      "name": "Amar Patel",
+      "rank": 92,
+      "name": "Amanda Dise",
       "type": "Individual",
       "observedCount": 1,
       "commentIds": [
-        "CMS-2026-2377-0810"
+        "CMS-2026-2377-0853"
       ]
     },
     {
-      "rank": 17,
+      "rank": 93,
+      "name": "Amanda Duncanson",
+      "type": "Individual",
+      "observedCount": 1,
+      "commentIds": [
+        "CMS-2026-2377-1350"
+      ]
+    },
+    {
+      "rank": 94,
+      "name": "Amanda Habrat",
+      "type": "Individual",
+      "observedCount": 1,
+      "commentIds": [
+        "CMS-2026-2377-1378"
+      ]
+    },
+    {
+      "rank": 95,
+      "name": "Amanda Rohn",
+      "type": "Individual",
+      "observedCount": 1,
+      "commentIds": [
+        "CMS-2026-2377-1518"
+      ]
+    },
+    {
+      "rank": 96,
+      "name": "Amanda Stephenson",
+      "type": "Individual",
+      "observedCount": 1,
+      "commentIds": [
+        "CMS-2026-2377-0203"
+      ]
+    },
+    {
+      "rank": 97,
+      "name": "Amanda Vignaroli",
+      "type": "Individual",
+      "observedCount": 1,
+      "commentIds": [
+        "CMS-2026-2377-1617"
+      ]
+    },
+    {
+      "rank": 98,
+      "name": "Amanda Zueck",
+      "type": "Individual",
+      "observedCount": 1,
+      "commentIds": [
+        "CMS-2026-2377-1203"
+      ]
+    },
+    {
+      "rank": 99,
+      "name": "Amelia Sutton",
+      "type": "Individual",
+      "observedCount": 1,
+      "commentIds": [
+        "CMS-2026-2377-0166"
+      ]
+    },
+    {
+      "rank": 100,
       "name": "Amir Aboutalebi",
       "type": "Individual",
       "observedCount": 1,
       "commentIds": [
         "CMS-2026-2377-0937"
       ]
-    },
-    {
-      "rank": 18,
-      "name": "Amy Brackeen",
-      "type": "Individual",
-      "observedCount": 1,
-      "commentIds": [
-        "CMS-2026-2377-0450"
-      ]
-    },
-    {
-      "rank": 19,
-      "name": "Amy Holton",
-      "type": "Individual",
-      "observedCount": 1,
-      "commentIds": [
-        "CMS-2026-2377-1184"
-      ]
-    },
-    {
-      "rank": 20,
-      "name": "Amy McGaha",
-      "type": "Individual",
-      "observedCount": 1,
-      "commentIds": [
-        "CMS-2026-2377-1401"
-      ]
-    },
-    {
-      "rank": 21,
-      "name": "Amy Schulz",
-      "type": "Individual",
-      "observedCount": 1,
-      "commentIds": [
-        "CMS-2026-2377-0134"
-      ]
-    },
-    {
-      "rank": 22,
-      "name": "Anacortes Dermatology Inc",
-      "type": "Organization",
-      "observedCount": 1,
-      "commentIds": [
-        "CMS-2026-2377-1224"
-      ]
-    },
-    {
-      "rank": 23,
-      "name": "Anand Gupta",
-      "type": "Individual",
-      "observedCount": 1,
-      "commentIds": [
-        "CMS-2026-2377-0275"
-      ]
-    },
-    {
-      "rank": 24,
-      "name": "Andrea Lausch",
-      "type": "Individual",
-      "observedCount": 1,
-      "commentIds": [
-        "CMS-2026-2377-1081"
-      ]
-    },
-    {
-      "rank": 25,
-      "name": "Andrew Wallner",
-      "type": "Individual",
-      "observedCount": 1,
-      "commentIds": [
-        "CMS-2026-2377-1430"
-      ]
-    },
-    {
-      "rank": 26,
-      "name": "Angela Ellerman",
-      "type": "Individual",
-      "observedCount": 1,
-      "commentIds": [
-        "CMS-2026-2377-0156"
-      ]
-    },
-    {
-      "rank": 27,
-      "name": "Angela Wipf",
-      "type": "Individual",
-      "observedCount": 1,
-      "commentIds": [
-        "CMS-2026-2377-0551"
-      ]
-    },
-    {
-      "rank": 28,
-      "name": "Angelina Bradley",
-      "type": "Individual",
-      "observedCount": 1,
-      "commentIds": [
-        "CMS-2026-2377-1474"
-      ]
-    },
-    {
-      "rank": 29,
-      "name": "Ann Gerner",
-      "type": "Individual",
-      "observedCount": 1,
-      "commentIds": [
-        "CMS-2026-2377-1105"
-      ]
-    },
-    {
-      "rank": 30,
-      "name": "Ann Riehl",
-      "type": "Individual",
-      "observedCount": 1,
-      "commentIds": [
-        "CMS-2026-2377-0332"
-      ]
-    },
-    {
-      "rank": 31,
-      "name": "Anna Desmarais",
-      "type": "Individual",
-      "observedCount": 1,
-      "commentIds": [
-        "CMS-2026-2377-0113"
-      ]
-    },
-    {
-      "rank": 32,
-      "name": "Anne Banfield",
-      "type": "Individual",
-      "observedCount": 1,
-      "commentIds": [
-        "CMS-2026-2377-1119"
-      ]
-    },
-    {
-      "rank": 33,
-      "name": "Annette Angiuli",
-      "type": "Individual",
-      "observedCount": 1,
-      "commentIds": [
-        "CMS-2026-2377-0298"
-      ]
-    },
-    {
-      "rank": 34,
-      "name": "Annie Reybrock",
-      "type": "Individual",
-      "observedCount": 1,
-      "commentIds": [
-        "CMS-2026-2377-1386"
-      ]
-    },
-    {
-      "rank": 35,
-      "name": "Ariel Ouziel",
-      "type": "Individual",
-      "observedCount": 1,
-      "commentIds": [
-        "CMS-2026-2377-0716"
-      ]
-    },
-    {
-      "rank": 36,
-      "name": "Arjun Dupati",
-      "type": "Individual",
-      "observedCount": 1,
-      "commentIds": [
-        "CMS-2026-2377-0234"
-      ]
-    },
-    {
-      "rank": 37,
-      "name": "Ashley Myers",
-      "type": "Individual",
-      "observedCount": 1,
-      "commentIds": [
-        "CMS-2026-2377-0369"
-      ]
-    },
-    {
-      "rank": 38,
-      "name": "Ashutosh Barve",
-      "type": "Individual",
-      "observedCount": 1,
-      "commentIds": [
-        "CMS-2026-2377-0368"
-      ]
-    },
-    {
-      "rank": 39,
-      "name": "Atlanta Obstetrics and Gynecology Specialists",
-      "type": "Organization",
-      "observedCount": 1,
-      "commentIds": [
-        "CMS-2026-2377-1382"
-      ]
-    },
-    {
-      "rank": 40,
-      "name": "Audrey Weissman",
-      "type": "Individual",
-      "observedCount": 1,
-      "commentIds": [
-        "CMS-2026-2377-1309"
-      ]
-    },
-    {
-      "rank": 41,
-      "name": "Austin Butler",
-      "type": "Individual",
-      "observedCount": 1,
-      "commentIds": [
-        "CMS-2026-2377-0946"
-      ]
-    },
-    {
-      "rank": 42,
-      "name": "Awa Sanneh",
-      "type": "Individual",
-      "observedCount": 1,
-      "commentIds": [
-        "CMS-2026-2377-1039"
-      ]
-    },
-    {
-      "rank": 43,
-      "name": "B G",
-      "type": "Individual",
-      "observedCount": 1,
-      "commentIds": [
-        "CMS-2026-2377-0431"
-      ]
-    },
-    {
-      "rank": 44,
-      "name": "Basil Kahwash",
-      "type": "Individual",
-      "observedCount": 1,
-      "commentIds": [
-        "CMS-2026-2377-1331"
-      ]
-    },
-    {
-      "rank": 45,
-      "name": "basir tareen",
-      "type": "Individual",
-      "observedCount": 1,
-      "commentIds": [
-        "CMS-2026-2377-0593"
-      ]
-    },
-    {
-      "rank": 46,
-      "name": "Benjamin Perry",
-      "type": "Individual",
-      "observedCount": 1,
-      "commentIds": [
-        "CMS-2026-2377-0094"
-      ]
-    },
-    {
-      "rank": 47,
-      "name": "Berry Jiang",
-      "type": "Individual",
-      "observedCount": 1,
-      "commentIds": [
-        "CMS-2026-2377-1556"
-      ]
-    },
-    {
-      "rank": 48,
-      "name": "Bill Cosker",
-      "type": "Individual",
-      "observedCount": 1,
-      "commentIds": [
-        "CMS-2026-2377-0607"
-      ]
-    },
-    {
-      "rank": 49,
-      "name": "Blaize O'Brien",
-      "type": "Individual",
-      "observedCount": 1,
-      "commentIds": [
-        "CMS-2026-2377-1654"
-      ]
-    },
-    {
-      "rank": 50,
-      "name": "blake schultz",
-      "type": "Individual",
-      "observedCount": 1,
-      "commentIds": [
-        "CMS-2026-2377-1219"
-      ]
-    },
-    {
-      "rank": 51,
-      "name": "Blue Valley Dermatology",
-      "type": "Organization",
-      "observedCount": 1,
-      "commentIds": [
-        "CMS-2026-2377-0099"
-      ]
-    },
-    {
-      "rank": 52,
-      "name": "Bonnie Pewterbaugh",
-      "type": "Individual",
-      "observedCount": 1,
-      "commentIds": [
-        "CMS-2026-2377-0749"
-      ]
-    },
-    {
-      "rank": 53,
-      "name": "Brandon Hirsch",
-      "type": "Individual",
-      "observedCount": 1,
-      "commentIds": [
-        "CMS-2026-2377-0199"
-      ]
-    },
-    {
-      "rank": 54,
-      "name": "Brenda Kelley",
-      "type": "Individual",
-      "observedCount": 1,
-      "commentIds": [
-        "CMS-2026-2377-0752"
-      ]
-    },
-    {
-      "rank": 55,
-      "name": "Brenda Proctor",
-      "type": "Individual",
-      "observedCount": 1,
-      "commentIds": [
-        "CMS-2026-2377-1367"
-      ]
-    },
-    {
-      "rank": 56,
-      "name": "Brett Kalmowitz",
-      "type": "Individual",
-      "observedCount": 1,
-      "commentIds": [
-        "CMS-2026-2377-0355"
-      ]
-    },
-    {
-      "rank": 57,
-      "name": "Brian Kleiber",
-      "type": "Individual",
-      "observedCount": 1,
-      "commentIds": [
-        "CMS-2026-2377-1034"
-      ]
-    },
-    {
-      "rank": 58,
-      "name": "Brian Sanders",
-      "type": "Individual",
-      "observedCount": 1,
-      "commentIds": [
-        "CMS-2026-2377-1560"
-      ]
-    },
-    {
-      "rank": 59,
-      "name": "Bridget Kelleher",
-      "type": "Individual",
-      "observedCount": 1,
-      "commentIds": [
-        "CMS-2026-2377-0774"
-      ]
-    },
-    {
-      "rank": 60,
-      "name": "Brielle Plost",
-      "type": "Individual",
-      "observedCount": 1,
-      "commentIds": [
-        "CMS-2026-2377-0181"
-      ]
-    },
-    {
-      "rank": 61,
-      "name": "Brittany Parrill",
-      "type": "Individual",
-      "observedCount": 1,
-      "commentIds": [
-        "CMS-2026-2377-0616"
-      ]
-    },
-    {
-      "rank": 62,
-      "name": "Burlington ENT PC",
-      "type": "Organization",
-      "observedCount": 1,
-      "commentIds": [
-        "CMS-2026-2377-1547"
-      ]
-    },
-    {
-      "rank": 63,
-      "name": "Camilo Fernandez-Salvador",
-      "type": "Individual",
-      "observedCount": 1,
-      "commentIds": [
-        "CMS-2026-2377-1244"
-      ]
-    },
-    {
-      "rank": 64,
-      "name": "Candis Davis",
-      "type": "Individual",
-      "observedCount": 1,
-      "commentIds": [
-        "CMS-2026-2377-0879"
-      ]
-    },
-    {
-      "rank": 65,
-      "name": "Cara Milam",
-      "type": "Individual",
-      "observedCount": 1,
-      "commentIds": [
-        "CMS-2026-2377-0349"
-      ]
-    },
-    {
-      "rank": 66,
-      "name": "Carey Amsden",
-      "type": "Individual",
-      "observedCount": 1,
-      "commentIds": [
-        "CMS-2026-2377-1580"
-      ]
-    },
-    {
-      "rank": 67,
-      "name": "Carlton Phillips",
-      "type": "Individual",
-      "observedCount": 1,
-      "commentIds": [
-        "CMS-2026-2377-1142"
-      ]
-    },
-    {
-      "rank": 68,
-      "name": "Carol Van Egeren",
-      "type": "Individual",
-      "observedCount": 1,
-      "commentIds": [
-        "CMS-2026-2377-0525"
-      ]
-    },
-    {
-      "rank": 69,
-      "name": "Carson Teague",
-      "type": "Individual",
-      "observedCount": 1,
-      "commentIds": [
-        "CMS-2026-2377-1425"
-      ]
-    },
-    {
-      "rank": 70,
-      "name": "Casey Barry",
-      "type": "Individual",
-      "observedCount": 1,
-      "commentIds": [
-        "CMS-2026-2377-1230"
-      ]
-    },
-    {
-      "rank": 71,
-      "name": "Casey Timmerman",
-      "type": "Individual",
-      "observedCount": 1,
-      "commentIds": [
-        "CMS-2026-2377-0159"
-      ]
-    },
-    {
-      "rank": 72,
-      "name": "Catherine Draper",
-      "type": "Individual",
-      "observedCount": 1,
-      "commentIds": [
-        "CMS-2026-2377-1656"
-      ]
-    },
-    {
-      "rank": 73,
-      "name": "CHAN NGUYEN",
-      "type": "Individual",
-      "observedCount": 1,
-      "commentIds": [
-        "CMS-2026-2377-0167"
-      ]
-    },
-    {
-      "rank": 74,
-      "name": "Channa Ovits",
-      "type": "Individual",
-      "observedCount": 1,
-      "commentIds": [
-        "CMS-2026-2377-0488"
-      ]
-    },
-    {
-      "rank": 75,
-      "name": "Charles Mitchell",
-      "type": "Individual",
-      "observedCount": 1,
-      "commentIds": [
-        "CMS-2026-2377-1468"
-      ]
-    },
-    {
-      "rank": 76,
-      "name": "Charles Patterson",
-      "type": "Individual",
-      "observedCount": 1,
-      "commentIds": [
-        "CMS-2026-2377-1130"
-      ]
-    },
-    {
-      "rank": 77,
-      "name": "Charles Phipps",
-      "type": "Individual",
-      "observedCount": 1,
-      "commentIds": [
-        "CMS-2026-2377-0822"
-      ]
-    },
-    {
-      "rank": 78,
-      "name": "Chris Livingston MD FACS",
-      "type": "Individual",
-      "observedCount": 1,
-      "commentIds": [
-        "CMS-2026-2377-0236"
-      ]
-    },
-    {
-      "rank": 79,
-      "name": "Christina Brennan",
-      "type": "Individual",
-      "observedCount": 1,
-      "commentIds": [
-        "CMS-2026-2377-1208"
-      ]
-    },
-    {
-      "rank": 80,
-      "name": "Christine Giustra",
-      "type": "Individual",
-      "observedCount": 1,
-      "commentIds": [
-        "CMS-2026-2377-1123"
-      ]
-    },
-    {
-      "rank": 81,
-      "name": "Christine Patterson",
-      "type": "Individual",
-      "observedCount": 1,
-      "commentIds": [
-        "CMS-2026-2377-1613"
-      ]
-    },
-    {
-      "rank": 82,
-      "name": "Christine Yoder",
-      "type": "Individual",
-      "observedCount": 1,
-      "commentIds": [
-        "CMS-2026-2377-1449"
-      ]
-    },
-    {
-      "rank": 83,
-      "name": "Christopher Ha",
-      "type": "Individual",
-      "observedCount": 1,
-      "commentIds": [
-        "CMS-2026-2377-0746"
-      ]
-    },
-    {
-      "rank": 84,
-      "name": "Cindy Wassef",
-      "type": "Individual",
-      "observedCount": 1,
-      "commentIds": [
-        "CMS-2026-2377-0267"
-      ]
-    },
-    {
-      "rank": 85,
-      "name": "Code Pause, Inc.",
-      "type": "Organization",
-      "observedCount": 1,
-      "commentIds": [
-        "CMS-2026-2377-0131"
-      ]
-    },
-    {
-      "rank": 86,
-      "name": "Conchita Bassetti",
-      "type": "Individual",
-      "observedCount": 1,
-      "commentIds": [
-        "CMS-2026-2377-0118"
-      ]
-    },
-    {
-      "rank": 87,
-      "name": "Connie Lichtenwald",
-      "type": "Individual",
-      "observedCount": 1,
-      "commentIds": [
-        "CMS-2026-2377-1127"
-      ]
-    },
-    {
-      "rank": 88,
-      "name": "Consuelo David",
-      "type": "Individual",
-      "observedCount": 1,
-      "commentIds": [
-        "CMS-2026-2377-0834"
-      ]
-    },
-    {
-      "rank": 89,
-      "name": "Crystal Loucel",
-      "type": "Individual",
-      "observedCount": 1,
-      "commentIds": [
-        "CMS-2026-2377-1618"
-      ]
-    },
-    {
-      "rank": 90,
-      "name": "Cynthia Harrington",
-      "type": "Individual",
-      "observedCount": 1,
-      "commentIds": [
-        "CMS-2026-2377-0126"
-      ]
-    },
-    {
-      "rank": 91,
-      "name": "D'nese Sokolowski",
-      "type": "Individual",
-      "observedCount": 1,
-      "commentIds": [
-        "CMS-2026-2377-1113"
-      ]
-    },
-    {
-      "rank": 92,
-      "name": "Dana Al-Khaled",
-      "type": "Individual",
-      "observedCount": 1,
-      "commentIds": [
-        "CMS-2026-2377-0505"
-      ]
-    },
-    {
-      "rank": 93,
-      "name": "Daniel Fox",
-      "type": "Individual",
-      "observedCount": 1,
-      "commentIds": [
-        "CMS-2026-2377-1434"
-      ]
-    },
-    {
-      "rank": 94,
-      "name": "Daniel Lo",
-      "type": "Individual",
-      "observedCount": 1,
-      "commentIds": [
-        "CMS-2026-2377-1022"
-      ]
-    },
-    {
-      "rank": 95,
-      "name": "Daniel Nadelman",
-      "type": "Individual",
-      "observedCount": 1,
-      "commentIds": [
-        "CMS-2026-2377-0807"
-      ]
-    },
-    {
-      "rank": 96,
-      "name": "Daniel Okamoto",
-      "type": "Individual",
-      "observedCount": 1,
-      "commentIds": [
-        "CMS-2026-2377-1232"
-      ]
-    },
-    {
-      "rank": 97,
-      "name": "Daniel Rothbaum",
-      "type": "Individual",
-      "observedCount": 1,
-      "commentIds": [
-        "CMS-2026-2377-1157"
-      ]
-    },
-    {
-      "rank": 98,
-      "name": "Daniel Verret",
-      "type": "Individual",
-      "observedCount": 1,
-      "commentIds": [
-        "CMS-2026-2377-1357"
-      ]
-    },
-    {
-      "rank": 99,
-      "name": "David Bianchi",
-      "type": "Individual",
-      "observedCount": 1,
-      "commentIds": [
-        "CMS-2026-2377-0723"
-      ]
-    },
-    {
-      "rank": 100,
-      "name": "David Gustafson",
-      "type": "Individual",
-      "observedCount": 1,
-      "commentIds": [
-        "CMS-2026-2377-1633"
-      ]
     }
   ],
-  "sample": {
-    "detailRecords": 456,
+  "analysis": {
+    "detailRecords": 1595,
     "censusAtAnalysis": 1595,
-    "coveragePercent": 28.6,
-    "analyzedAt": "2026-08-04T00:00:00Z",
-    "attachmentNote": "23 sampled records referenced attachments; files were not extracted."
+    "coveragePercent": 100.0,
+    "analyzedAt": "2026-08-04T00:13:44Z",
+    "attachmentsAnalyzed": 113,
+    "totalWords": 549154,
+    "duplicateClusters": 75,
+    "rpmComments": 99,
+    "rpmPolicySpecific": 82,
+    "rpmOpposeOrNarrow": 79,
+    "attachmentNote": "All 113 logical attachments were included; five image-only files were OCR-processed."
   }
 }
